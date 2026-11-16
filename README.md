@@ -1,6 +1,6 @@
 # molowStyle 🛍️
 
-[Una o dos frases: qué es el proyecto y para quién es.]
+Tienda de ropa streetwear destinada a los mejores.
 
 🔗 **Demo en vivo:** (https://milixlamara.github.io/molowstyle-web/)
 
