@@ -13,10 +13,12 @@
   <body>
     <header>
       <div class="container">
-        <h1 class="bienvenida">Bienvenido a MolowStyle</h1>
+        <a href="index.html" class="logo">MolowStyle</a>
         <nav>
           <ul>
-            <li class="nav-item"><a href="index.html">Inicio</a></li>
+            <li class="nav-item">
+              <a href="index.html" aria-current="page">Inicio</a>
+            </li>
             <li class="nav-item"><a href="catalogo.html">Catálogo</a></li>
             <li class="nav-item"><a href="contacto.html">Contacto</a></li>
             <li class="nav-item">
@@ -24,9 +26,24 @@
             </li>
           </ul>
         </nav>
+        <form class="busqueda" method="get">
+          <label for="buscar-en-la-pagina"></label>
+          <input type="search" id="buscar-en-la-pagina" name="buscar" />
+          <button type="submit">Buscar</button>
+        </form>
       </div>
     </header>
+
     <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="bienvenida">Bienvenido a MolowStyle</h1>
+          <p>
+            Somos la tienda mas increible con el mejor universo, nuestras
+            prendas demuestran <span>calidad, lujo, calle y lealtad!</span>
+          </p>
+        </div>
+      </section>
       <section>
         <div class="container">
           <h2>¡Lo más vendido!</h2>
@@ -43,7 +60,7 @@
 
             <article>
               <img
-                src="img/images2.jpeg"
+                src="img/hoddie-blanco.jpeg"
                 alt="Hoodie blanco con estampado de graffiti"
               />
               <h3>Hoodie blanco Graffiti</h3>
@@ -52,7 +69,10 @@
             </article>
 
             <article>
-              <img src="img/images3.jpeg" alt="Jean estampado Nueva York" />
+              <img
+                src="img/jean-nueva-york.jpeg"
+                alt="Jean estampado Nueva York"
+              />
               <h3>Jeans estampado Nueva York</h3>
               <p class="item-price">$80.000</p>
               <p>Excelente relación calidad-precio.</p>

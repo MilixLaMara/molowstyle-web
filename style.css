@@ -1,27 +1,27 @@
 .background {
-    background-color: white;
-    color: #333;
-    font-family: Arial, sans-serif;
-    padding: 20px;
+  background-color: white;
+  color: #333;
+  font-family: Arial, sans-serif;
+  padding: 20px;
 }
 .hola {
-    text-align: center;
+  text-align: center;
 }
 
 .bienvenida {
-    font-size: 2em;
-    color: pink;
+  font-size: 2em;
+  color: pink;
 }
 
 .buscar {
-    color: red;
-    margin-top: 20px;
-    text-align: center;
+  color: red;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .ini_1 {
-    font-size: 1.5em;
-    color: blue;
-    margin-top: 20px;
-    text-align: center;
+  font-size: 1.5em;
+  color: blue;
+  margin-top: 20px;
+  text-align: center;
 }
