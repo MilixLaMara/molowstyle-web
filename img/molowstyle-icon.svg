@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" role="img" aria-label="MolowStyle">
+  <title>MolowStyle</title>
+  <rect width="48" height="48" rx="10" fill="#0B0B0C"/>
+  <path d="M13 34V14L24 27L35 14V34" fill="none" stroke="#EDEAE4" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter"/>
+  <rect x="9" y="22" width="30" height="2" fill="#0B0B0C"/>
+  <rect x="22" y="33" width="4" height="4" fill="#D7263D"/>
+</svg>
