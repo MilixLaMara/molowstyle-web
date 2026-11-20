@@ -1,27 +1,30 @@
-.background {
-  background-color: white;
-  color: #333;
-  font-family: Arial, sans-serif;
-  padding: 20px;
-}
-.hola {
-  text-align: center;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-.bienvenida {
-  font-size: 2em;
-  color: pink;
+body {
+  margin: 0;
 }
 
-.buscar {
-  color: red;
-  margin-top: 20px;
-  text-align: center;
+img {
+  max-width: 100%;
+  display: block;
 }
 
-.ini_1 {
-  font-size: 1.5em;
-  color: blue;
-  margin-top: 20px;
-  text-align: center;
+:root {
+  --color-fondo: #0b0b0c;
+  --color-texto-logo: #edeae4;
+  --color-texto-secundario: #8a8a8e;
+  --color-diferencial: #d7263d;
+  --color-tarjetas-menu: #1c1c1f;
+  --fuente-titulos: 'Archivo Black', system-ui, sans-serif;
+  --fuente-principal: 'Inter', system-ui, sans-serif;
+  --fuente-detalles: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+body {
+  background-color: var(--color-fondo);
+  color: var(--color-texto-logo);
 }
