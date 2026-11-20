@@ -24,3 +24,25 @@ img {
   --fuente-detalles: "JetBrains Mono", ui-monospace, monospace;
 }
 
+body {
+  background-color: var(--color-fondo);
+  color: var(--color-texto-logo);
+  font-family: var(--fuente-principal);
+}
+
+a {
+  color: var(--color-diferencial);
+  text-decoration: none;
+}
+
+.item-price {
+  color: var(--color-texto-secundario);
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1400%;
+  margin: 0 auto;
+  padding-left: 16%;
+  padding-right: 16;
+}
