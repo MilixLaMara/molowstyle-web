@@ -1,18 +1,3 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-}
-
-img {
-  max-width: 100%;
-  display: block;
-}
-
 :root {
   --color-fondo: #0b0b0c;
   --color-texto-logo: #edeae4;
@@ -24,25 +9,81 @@ img {
   --fuente-detalles: "JetBrains Mono", ui-monospace, monospace;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
 body {
   background-color: var(--color-fondo);
   color: var(--color-texto-logo);
+  margin: 0;
   font-family: var(--fuente-principal);
 }
 
 a {
-  color: var(--color-diferencial);
+  color: var(--color-texto-secundario);
   text-decoration: none;
 }
 
 .item-price {
-  color: var(--color-texto-secundario);
+  color: var(--color-diferencial);
   font-weight: bold;
 }
 
 .container {
-  max-width: 1400%;
+  max-width: 1200px;
   margin: 0 auto;
-  padding-left: 16%;
-  padding-right: 16%;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
+
+h1, h2, h3 {
+  font-family: var(--fuente-titulos);
+}
+
+
+.nav-item a[aria-current="page"] {
+  color: var(--color-texto-logo);
+  border-bottom: 2px solid var(--color-diferencial);
+}
+
+
+
+section {
+  padding: 4rem 0;
+}
+
+.hero {
+  padding: 2rem 5.5rem;
+}
+
+.products-grid article {
+  background-color: var(--color-tarjetas-menu);
+  padding: 1.5rem;
+  border: 1px solid #2a2a2e;
+  border-radius: 8px;
+}
+
+.busqueda button {
+  border: none;
+  background-color: var(--color-diferencial);
+  color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0.25rem 1rem;
+  font-family: inherit;
+  font-weight: 600;
+}
+
+.busqueda button:hover {
+  background-color: #b81f33;
+}
+
