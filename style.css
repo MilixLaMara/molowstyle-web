@@ -19,12 +19,30 @@ img {
   --color-texto-secundario: #8a8a8e;
   --color-diferencial: #d7263d;
   --color-tarjetas-menu: #1c1c1f;
-  --fuente-titulos: 'Archivo Black', system-ui, sans-serif;
-  --fuente-principal: 'Inter', system-ui, sans-serif;
-  --fuente-detalles: 'JetBrains Mono', ui-monospace, monospace;
+  --fuente-titulos: "Archivo Black", system-ui, sans-serif;
+  --fuente-principal: "Inter", system-ui, sans-serif;
+  --fuente-detalles: "JetBrains Mono", ui-monospace, monospace;
 }
 
 body {
   background-color: var(--color-fondo);
   color: var(--color-texto-logo);
+  font-family: var(--fuente-principal);
+}
+
+a {
+  color: var(--color-diferencial);
+  text-decoration: none;
+}
+
+.item-price {
+  color: var(--color-texto-secundario);
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1400%;
+  margin: 0 auto;
+  padding-left: 16%;
+  padding-right: 16;
 }
